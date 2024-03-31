@@ -12,7 +12,7 @@ const gameConfig: Phaser.Types.Core.GameConfig = {
 	height: 600,
 	type: Phaser.AUTO,
 	parent: "content",
-	title: "Starter Project for Phaser 3 with Visual Studio Code, TypeScript, and NodeJS"
+	title: "Game with spacecraft destroying asterids",
 };
 
 export default class Game extends Phaser.Game {
@@ -54,6 +54,6 @@ window.onload = (): void => {
 	// eslint-disable-next-line @typescript-eslint/no-unused-vars
 	const game = new Game(gameConfig);
 	// Uncomment the following two lines if you want the game to scale to fill the entire page, but keep the game ratio.
-	//resize();
-	//window.addEventListener("resize", resize, true);
+	resize();
+	window.addEventListener("resize", resize, true);
 };

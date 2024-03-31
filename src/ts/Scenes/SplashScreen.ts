@@ -14,9 +14,16 @@ export default class SplashScreen extends Phaser.Scene {
 	public create(): void {
 		Utilities.LogSceneMethodEntry("SplashScreen", "create");
 
-		const titleText = this.add.text(this.cameras.main.centerX, this.cameras.main.centerY * 0.5, "Starter Project for Phaser 3 with TypeScript")
+		this.add
+			.text(
+				this.cameras.main.centerX,
+				this.cameras.main.centerY * 0.5,
+				"Game with spacecraft destroying asterids"
+			)
 			.setOrigin(0.5, 0)
-			.setFontFamily("monospace").setFontSize(26).setFill("#fff");
+			.setFontFamily("monospace")
+			.setFontSize(26)
+			.setFill("#fff");
 
 		const poweredByText = this.add.text(this.cameras.main.centerX, this.cameras.main.centerY - 25, "Powered By");
 		poweredByText.setOrigin(0.5, 0.5);
