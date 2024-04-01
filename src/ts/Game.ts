@@ -8,11 +8,21 @@ import MainGame from "./Scenes/MainGame";
 import MainSettings from "./Scenes/MainSettings";
 
 const gameConfig: Phaser.Types.Core.GameConfig = {
-	width: 800,
-	height: 600,
+	width: 1200,
+	height: 900,
 	type: Phaser.AUTO,
 	parent: "content",
 	title: "Game with spacecraft destroying asterids",
+	physics: {
+		default: "arcade",
+		arcade: {
+			debug: false,
+			gravity: {
+				y: 0,
+				x: 0
+			},
+		},
+	}
 };
 
 export default class Game extends Phaser.Game {
@@ -54,6 +64,6 @@ window.onload = (): void => {
 	// eslint-disable-next-line @typescript-eslint/no-unused-vars
 	const game = new Game(gameConfig);
 	// Uncomment the following two lines if you want the game to scale to fill the entire page, but keep the game ratio.
-	resize();
-	window.addEventListener("resize", resize, true);
+	//resize();
+	//window.addEventListener("resize", resize, true);
 };

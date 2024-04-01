@@ -4,7 +4,8 @@ export default class Utilities {
 	 * @param message Message to log.
 	 */
 	public static Log(message: string): void {
-		console.log((new Date()).toISOString() + " : " + message);
+		// eslint-disable-next-line no-console
+		console.log(new Date().toISOString() + " : " + message);
 	}
 
 	/**

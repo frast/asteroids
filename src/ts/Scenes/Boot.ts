@@ -5,7 +5,7 @@ export default class Boot extends Phaser.Scene {
 	/**
 	 * Unique name of the scene.
 	 */
-	public static Name = "Boot";
+	public static readonly Name = "Boot";
 
 	public preload(): void {
 		// Preload as needed.

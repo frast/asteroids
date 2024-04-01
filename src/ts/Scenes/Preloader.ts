@@ -5,7 +5,7 @@ export default class Preloader extends Phaser.Scene {
 	/**
 	 * Unique name of the scene.
 	 */
-	public static Name = "Preloader";
+	public static readonly Name = "Preloader";
 
 	public preload(): void {
 		this.addProgressBar();
@@ -13,6 +13,11 @@ export default class Preloader extends Phaser.Scene {
 		this.load.path = "assets/";
 		this.load.image("phaser_pixel_medium_flat");
 		this.load.image("Phaser-Logo-Small");
+		this.load.image("asteroid");
+		this.load.spritesheet("spaceship", "spaceship-sheet.png", {
+			frameWidth: 69,
+			frameHeight: 100,
+		});
 	}
 
 	public create(): void {

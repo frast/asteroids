@@ -1,0 +1,52 @@
+{ "frames": [
+   {
+    "filename": "spaceship 0.png",
+    "frame": { "x": 0, "y": 0, "w": 69, "h": 100 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 69, "h": 100 },
+    "sourceSize": { "w": 69, "h": 100 },
+    "duration": 100
+   },
+   {
+    "filename": "spaceship 1.png",
+    "frame": { "x": 69, "y": 0, "w": 69, "h": 100 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 69, "h": 100 },
+    "sourceSize": { "w": 69, "h": 100 },
+    "duration": 100
+   },
+   {
+    "filename": "spaceship 2.png",
+    "frame": { "x": 138, "y": 0, "w": 69, "h": 100 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 69, "h": 100 },
+    "sourceSize": { "w": 69, "h": 100 },
+    "duration": 100
+   },
+   {
+    "filename": "spaceship 3.png",
+    "frame": { "x": 207, "y": 0, "w": 69, "h": 100 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 69, "h": 100 },
+    "sourceSize": { "w": 69, "h": 100 },
+    "duration": 100
+   }
+ ],
+ "meta": {
+  "app": "https://github.com/LibreSprite/LibreSprite/",
+  "version": "1.2-973d0e3d-SDL",
+  "image": "D:\\asteroids\\src\\assets\\spaceship-sheet.png",
+  "format": "RGBA8888",
+  "size": { "w": 276, "h": 100 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "Flattened", "opacity": 255, "blendMode": "normal" }
+  ]
+ }
+}
