@@ -17,7 +17,7 @@ jobs:
       - run: npm install typescript -g
       - run: npm install
       - run: npm run build
-      - uses: actions/upload-pages-artifact@v1
+      - uses: actions/upload-pages-artifact@v2
         with:
           path: './public'
 
@@ -32,5 +32,4 @@ jobs:
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - id: deploy
-        uses: actions/deploy-pages@v1
-
+        uses: actions/deploy-pages@v2
