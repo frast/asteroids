@@ -1,10 +1,11 @@
 {
 	"compilerOptions": {
 		"target": "es2017",
-		"module": "commonjs",
-		"esModuleInterop": true,
-		"rootDir": "./src/ts/",
-		"sourceMap": true,
-		"moduleResolution": "node"
-	}
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "rootDir": "./src/ts/",
+        "outDir": "./lib",
+        "sourceMap": true,
+        "moduleResolution": "node"
+        }
 }
