@@ -3,6 +3,7 @@ public/
 # legacy
 build/
 dist/
+lib/
 
 # Dependency directories
 node_modules/
