@@ -18,7 +18,7 @@ export default class SplashScreen extends Phaser.Scene {
 			.text(
 				this.cameras.main.centerX,
 				this.cameras.main.centerY * 0.5,
-				"Game with spacecraft destroying asterids"
+				"Game with spacecraft destroying asteroids"
 			)
 			.setOrigin(0.5, 0)
 			.setFontFamily("monospace")

@@ -12,7 +12,7 @@ const gameConfig: Phaser.Types.Core.GameConfig = {
 	height: 900,
 	type: Phaser.AUTO,
 	parent: "content",
-	title: "Game with spacecraft destroying asterids",
+	title: "Game with spacecraft destroying asteroids",
 	physics: {
 		default: "arcade",
 		arcade: {
