@@ -1,3 +1,5 @@
+import Phaser from 'phaser';
+
 type InitialAsteroidState = {
 	readonly posX: number;
 	readonly posY: number;

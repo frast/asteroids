@@ -1,3 +1,4 @@
+import Phaser from 'phaser';
 import SplashScreen from "./SplashScreen";
 import Utilities from "../Utilities";
 

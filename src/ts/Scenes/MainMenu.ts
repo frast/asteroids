@@ -1,3 +1,4 @@
+import Phaser from 'phaser';
 import Utilities from "../Utilities";
 import MainGame from "./MainGame";
 import MainSettings from "./MainSettings";

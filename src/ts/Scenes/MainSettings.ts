@@ -1,3 +1,4 @@
+import Phaser from 'phaser';
 import Utilities from "../Utilities";
 import MainMenu from "./MainMenu";
 

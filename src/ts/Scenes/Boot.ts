@@ -1,3 +1,4 @@
+import Phaser from 'phaser';
 import Preloader from "./Preloader";
 import Utilities from "../Utilities";
 
