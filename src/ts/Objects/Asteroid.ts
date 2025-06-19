@@ -108,7 +108,7 @@ export default class Asteroid {
 	public static wrap(
 		physics: Phaser.Physics.Arcade.ArcadePhysics,
 		asteroids: Asteroid[]
-	) {
+	): void {
 		asteroids.forEach(asteroid => {
 			physics.world.wrap(asteroid.asteroid, 32);
 		});
