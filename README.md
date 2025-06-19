@@ -60,6 +60,9 @@ If you'd like to run a simple web server, install http-server via `npm install h
 
 If you'd like to lint your TypeScript/JavaScript, run `npm run lint`.
 
+## Running Tests
+Run `npm test` to compile the TypeScript sources and execute the test suite.
+
 ## Upgrading Phaser
 To upgrade Phaser 3 run `npm upgrade --save phaser`.
 
