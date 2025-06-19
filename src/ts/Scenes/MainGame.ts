@@ -35,7 +35,7 @@ export default class MainGame extends Phaser.Scene {
 	}
 
 	public update(): void {
-		Asteroid.createRandom(this, this.asteroids)
+		Asteroid.createRandom(this, this.asteroids);
 		if (this.cursors.up.isDown) {
 			this.physics.velocityFromRotation(
 				this.spaceship.rotation - Math.PI / 2,
