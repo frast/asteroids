@@ -1,3 +1,4 @@
+import Phaser from 'phaser';
 import Asteroid from "../Objects/Asteroid";
 import Utilities from "../Utilities";
 
